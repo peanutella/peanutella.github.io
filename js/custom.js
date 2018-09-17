@@ -1,3 +1,16 @@
+$('body').addClass('loaded');
+
+$(window).on("load", function() {
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.loader-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+
+
+});
+
 $(document).ready(function() {
 //Preloader
 
@@ -46,18 +59,7 @@ var parallax = new Parallax(scene);
 
 
 });
-$('body').addClass('loaded');
 
-$(window).on("load", function() {
-preloaderFadeOutTime = 500;
-function hidePreloader() {
-var preloader = $('.loader-wrapper');
-preloader.fadeOut(preloaderFadeOutTime);
-}
-hidePreloader();
-
-
-});
 
 
 // Flexslider
