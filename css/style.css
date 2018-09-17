@@ -1,11 +1,3 @@
-#Wanpis, #Tenpisis, #TwelbPisis {
-  height: 450px;
-  margin-top: 1rem;
-  background-image: url("../images/gallery/product2.jpeg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border-radius: 7px;
-}
 
 
 .border-radius{
@@ -19,7 +11,7 @@
   justify-content: center;
 }
 
-.chocolate{
+.chocolate, .fa-phone{
 	color:#2b1700	;
 }
 
@@ -33,11 +25,12 @@
 
 nav {
   position: fixed;
-  background-color: transparent;
+  background-color:rgba(255, 255, 255, 1) !important;
+  box-shadow: 5px 5px 5px rgba(79, 48, 15, 0.52);
 }
 
-.header-gradient {
-  background: 		rgba(43, 23, 0, 0.7);
+nav a{
+  color: #2b1700	;
 }
 
 .flex-row{
